@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Planos de Saúde em Belém / Ananindeua | Plan Corretagem</title>
+
+    <meta name="description"
+          content="Encontre o plano de saúde ideal para você, sua família ou sua empresa em Belém / Ananindeua. Faça uma cotação gratuita com a Plan Corretagem.">
+
+    <!-- =====================================================
+         LOGO DA EMPRESA
+         TROQUE "logo.png" PELO NOME DA SUA LOGO
+         Exemplo:
+         <img src="img/logo-plan.png" alt="Plan Corretagem">
+         ===================================================== -->
+
+    <link rel="icon" href="img/logo.png">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <!-- =================================================
+                 LOGO
+                 TROQUE AQUI A IMAGEM DA LOGO
+                 ================================================= -->
+
+            <a href="#inicio" class="logo">
+                <img src="img/logo2.png" alt="Plan Corretagem">
+            </a>
+
+            <nav class="menu">
+
+                <a href="#inicio">Início</a>
+                <a href="#planos">Planos</a>
+                <a href="#vantagens">Vantagens</a>
+                <a href="#duvidas">Dúvidas</a>
+                <a href="#contato">Contato</a>
+
+            </nav>
+
+            <a href="#cotacao" class="btn btn-header">
+                Fazer cotação
+            </a>
+
+            <button class="menu-mobile" id="menuMobile">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <h1>
+                        Encontre o plano de saúde
+                        <span>ideal para você</span>
+                    </h1>
+
+                    <p>
+                        Compare opções de planos de saúde e encontre
+                        uma alternativa que combine com suas necessidades
+                        e seu orçamento em <strong>Belém / Ananindeua</strong>.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#cotacao" class="btn btn-primary">
+                            Quero fazer uma cotação
+                        </a>
+
+                        <a href="#planos" class="btn btn-outline">
+                            Conheça os planos
+                        </a>
+
+                    </div>
+
+                    <div class="hero-benefits">
+
+                        <div>
+                            <strong>✓</strong>
+                            Cotação gratuita
+                        </div>
+
+                        <div>
+                            <strong>✓</strong>
+                            Atendimento personalizado
+                        </div>
+
+                        <div>
+                            <strong>✓</strong>
+                            Opções para diferentes perfis
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     FORMULÁRIO
+                     ================================================= -->
+
+                <div class="quote-card" id="cotacao">
+
+                    <div class="card-header">
+
+                        <span>SIMULAÇÃO GRATUITA</span>
+
+                        <h2>
+                            Calcule seu plano de saúde
+                        </h2>
+
+                        <p>
+                            Preencha os dados e nossa equipe entrará
+                            em contato para apresentar as opções.
+                        </p>
+
+                    </div>
+
+                    <form id="quoteForm">
+
+                        <div class="form-group">
+
+                            <label for="nome">
+                                Nome
+                            </label>
+
+                            <input
+                                type="text"
+                                id="nome"
+                                name="nome"
+                                placeholder="Digite seu nome"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="telefone">
+                                    WhatsApp
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    id="telefone"
+                                    name="telefone"
+                                    placeholder="(91) 99999-9999"
+                                    required
+                                >
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="idade">
+                                    Idade
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="idade"
+                                    name="idade"
+                                    placeholder="Ex.: 30"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="tipo">
+                                Qual plano você procura?
+                            </label>
+
+                            <select id="tipo" name="tipo">
+
+                                <option value="">
+                                    Selecione uma opção
+                                </option>
+
+                                <option>
+                                    Plano Individual
+                                </option>
+
+                                <option>
+                                    Plano Familiar
+                                </option>
+
+                                <option>
+                                    Plano Empresarial
+                                </option>
+
+                                <option>
+                                    Plano para MEI
+                                </option>
+
+                                <option>
+                                    Plano Infantil
+                                </option>
+
+                                <option>
+                                    Plano por Adesão
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-submit"
+                        >
+                            Solicitar cotação gratuita
+                        </button>
+
+                        <small>
+                            Seus dados serão utilizados apenas para
+                            contato referente à sua cotação.
+                        </small>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             NÚMEROS / CONFIANÇA
+             ===================================================== -->
+
+        <section class="numbers">
+
+            <div class="container numbers-grid">
+
+                <div class="number-item">
+                    <strong>100%</strong>
+                    <span>Atendimento personalizado</span>
+                </div>
+
+                <div class="number-item">
+                    <strong>GRÁTIS</strong>
+                    <span>Faça sua cotação</span>
+                </div>
+
+                <div class="number-item">
+                    <strong>+ OPÇÕES</strong>
+                    <span>Planos para diferentes perfis</span>
+                </div>
+
+                <div class="number-item">
+                    <strong>PA</strong>
+                    <span>Belém / Ananindeua</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PLANOS
+             ===================================================== -->
+
+        <section class="section" id="planos">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span class="tag">
+                        ENCONTRE O SEU
+                    </span>
+
+                    <h2>
+                        Planos de saúde para
+                        diferentes necessidades
+                    </h2>
+
+                    <p>
+                        Conte com a Plan Corretagem para encontrar
+                        uma opção adequada ao seu perfil.
+                    </p>
+
+                </div>
+
+
+                <div class="plans-grid">
+
+                    <article class="plan-card">
+
+                        <div class="plan-icon">
+                            👤
+                        </div>
+
+                        <h3>
+                            Plano Individual
+                        </h3>
+
+                        <p>
+                            Para quem busca cuidar da própria saúde
+                            com uma opção de assistência médica.
+                        </p>
+
+                        <a href="#cotacao">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="plan-card featured">
+
+                        <div class="plan-icon">
+                            👨‍👩‍👧‍👦
+                        </div>
+
+                        <h3>
+                            Plano Familiar
+                        </h3>
+
+                        <p>
+                            Proteção para você e sua família,
+                            com opções para diferentes perfis.
+                        </p>
+
+                        <a href="#cotacao">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="plan-card">
+
+                        <div class="plan-icon">
+                            🏢
+                        </div>
+
+                        <h3>
+                            Plano Empresarial
+                        </h3>
+
+                        <p>
+                            Soluções de saúde para empresas,
+                            colaboradores e seus dependentes.
+                        </p>
+
+                        <a href="#cotacao">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="plan-card">
+
+                        <div class="plan-icon">
+                            💼
+                        </div>
+
+                        <h3>
+                            Plano para MEI
+                        </h3>
+
+                        <p>
+                            Alternativas para microempreendedores
+                            que buscam assistência médica.
+                        </p>
+
+                        <a href="#cotacao">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="plan-card">
+
+                        <div class="plan-icon">
+                            👶
+                        </div>
+
+                        <h3>
+                            Plano Infantil
+                        </h3>
+
+                        <p>
+                            Opções de assistência para crianças
+                            e adolescentes.
+                        </p>
+
+                        <a href="#cotacao">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="plan-card">
+
+                        <div class="plan-icon">
+                            🤝
+                        </div>
+
+                        <h3>
+                            Plano por Adesão
+                        </h3>
+
+                        <p>
+                            Opções para pessoas vinculadas a
+                            entidades de classe ou categorias profissionais.
+                        </p>
+
+                        <a href="#cotacao">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             VANTAGENS
+             ===================================================== -->
+
+        <section class="advantages" id="vantagens">
+
+            <div class="container advantages-content">
+
+                <div class="advantages-text">
+
+                    <span class="tag">
+                        POR QUE ESCOLHER A PLAN CORRETAGEM?
+                    </span>
+
+                    <h2>
+                        Mais facilidade para escolher
+                        seu plano de saúde
+                    </h2>
+
+                    <p>
+                        Encontrar um plano de saúde pode parecer
+                        complicado. Nossa equipe ajuda você a
+                        entender as opções disponíveis e escolher
+                        uma alternativa de acordo com suas necessidades.
+                    </p>
+
+                    <a href="#cotacao" class="btn btn-primary">
+                        Quero uma cotação
+                    </a>
+
+                </div>
+
+
+                <div class="advantages-list">
+
+                    <div class="advantage">
+
+                        <span>01</span>
+
+                        <div>
+                            <h3>
+                                Atendimento personalizado
+                            </h3>
+
+                            <p>
+                                Entendemos seu perfil antes de
+                                apresentar as opções.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="advantage">
+
+                        <span>02</span>
+
+                        <div>
+                            <h3>
+                                Compare diferentes opções
+                            </h3>
+
+                            <p>
+                                Encontre alternativas que façam
+                                sentido para você.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="advantage">
+
+                        <span>03</span>
+
+                        <div>
+                            <h3>
+                                Cotação sem compromisso
+                            </h3>
+
+                            <p>
+                                Solicite sua cotação gratuitamente.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="advantage">
+
+                        <span>04</span>
+
+                        <div>
+                            <h3>
+                                Suporte durante o processo
+                            </h3>
+
+                            <p>
+                                Conte com nossa equipe para tirar
+                                suas dúvidas.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             OPERADORAS
+             ===================================================== -->
+
+        <section class="section operators">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span class="tag">
+                        OPERADORAS
+                    </span>
+
+                    <h2>
+                        Encontre a opção ideal
+                    </h2>
+
+                    <p>
+                        Trabalhamos com diferentes alternativas
+                        de planos de saúde. Consulte as opções
+                        disponíveis para sua região.
+                    </p>
+
+                </div>
+
+
+                <div class="operators-grid">
+
+                    <div class="operator" data-produto="Hapvida" tabindex="0" role="button" aria-label="Falar sobre o plano Hapvida no WhatsApp">
+                        <img src="img/hapvida.png" alt="Hapvida" class="operator-logo">
+                        <span>Saúde</span>
+                    </div>
+
+                    <div class="operator" data-produto="Bradesco" tabindex="0" role="button" aria-label="Falar sobre o plano Bradesco no WhatsApp">
+                        <img src="img/bradesco.png" alt="Bradesco" class="operator-logo">
+                        <span>Seguro</span>
+                    </div>
+
+                    <div class="operator" data-produto="Amil" tabindex="0" role="button" aria-label="Falar sobre o plano Amil no WhatsApp">
+                        <img src="img/amil.png" alt="Amil" class="operator-logo">
+                        <span>Dental</span>
+                    </div>
+
+                    <div class="operator" data-produto="Sulamérica" tabindex="0" role="button" aria-label="Falar sobre o plano Sulamérica no WhatsApp">
+                        <img src="img/sulamerica.png" alt="Sulamerica" class="operator-logo">
+                        <span>Saúde</span>
+                    </div>
+
+                    <div class="operator" data-produto="Proasa" tabindex="0" role="button" aria-label="Falar sobre o plano Proasa no WhatsApp">
+                        <img src="img/proasa.png" alt="Proasa" class="operator-logo">
+                        <span>Saúde</span>
+                    </div>
+
+                    <div class="operator" data-produto="Porto Dias" tabindex="0" role="button" aria-label="Falar sobre o plano Porto Dias no WhatsApp">
+                        <img src="img/porto dias.png" alt="Porto Dias" class="operator-logo">
+                        <span>Saúde</span>
+                    </div>
+
+                </div>
+
+                <p class="operator-note">
+                    * A disponibilidade das operadoras e produtos
+                    pode variar conforme região, perfil e regras
+                    de comercialização. Consulte nossa equipe.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             COMO FUNCIONA
+             ===================================================== -->
+
+        <section class="how">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span class="tag">
+                        É SIMPLES
+                    </span>
+
+                    <h2>
+                        Como funciona?
+                    </h2>
+
+                </div>
+
+
+                <div class="steps">
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            1
+                        </div>
+
+                        <h3>
+                            Preencha o formulário
+                        </h3>
+
+                        <p>
+                            Informe seus dados básicos
+                            para iniciarmos sua cotação.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            2
+                        </div>
+
+                        <h3>
+                            Analisamos seu perfil
+                        </h3>
+
+                        <p>
+                            Nossa equipe verifica as opções
+                            disponíveis para sua necessidade.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            3
+                        </div>
+
+                        <h3>
+                            Receba as opções
+                        </h3>
+
+                        <p>
+                            Você recebe informações sobre
+                            as alternativas disponíveis.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">
+                            4
+                        </div>
+
+                        <h3>
+                            Escolha seu plano
+                        </h3>
+
+                        <p>
+                            Conte com nossa equipe para
+                            esclarecer suas dúvidas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FAQ
+             ===================================================== -->
+
+        <section class="section faq" id="duvidas">
+
+            <div class="container faq-container">
+
+                <div class="section-title">
+
+                    <span class="tag">
+                        DÚVIDAS
+                    </span>
+
+                    <h2>
+                        Perguntas frequentes
+                    </h2>
+
+                </div>
+
+
+                <div class="faq-list">
+
+                    <details>
+
+                        <summary>
+                            Quanto custa um plano de saúde?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            O valor depende de fatores como idade,
+                            quantidade de pessoas, modalidade,
+                            cobertura e regras da operadora.
+                            Solicite uma cotação para receber
+                            opções personalizadas.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Posso contratar para minha família?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            Sim. Existem diferentes modalidades
+                            que podem atender famílias. Nossa equipe
+                            pode verificar as opções disponíveis
+                            para seu perfil.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Existe plano para empresas?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            Sim. Existem planos empresariais para
+                            diferentes tamanhos e perfis de empresas.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            A cotação é gratuita?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            Sim. Você pode solicitar uma cotação
+                            sem compromisso através do formulário.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Vocês atendem Belém e Ananindeua?
+                            <span>+</span>
+                        </summary>
+
+                        <p>
+                            Sim. A Plan Corretagem atende clientes
+                            da região de Belém / Ananindeua e
+                            pode verificar as opções disponíveis
+                            para cada perfil.
+                        </p>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CTA
+             ===================================================== -->
+
+        <section class="cta" id="contato">
+
+            <div class="container cta-content">
+
+                <div>
+
+                    <span class="tag">
+                        PLAN CORRETAGEM
+                    </span>
+
+                    <h2>
+                        Pronto para encontrar
+                        seu plano de saúde?
+                    </h2>
+
+                    <p>
+                        Faça uma cotação e descubra as opções
+                        disponíveis para você.
+                    </p>
+
+                </div>
+
+                <a href="#cotacao" class="btn btn-light">
+                    Fazer minha cotação
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+
+                <!-- =================================================
+                     LOGO DO FOOTER
+                     TROQUE AQUI TAMBÉM SE QUISER OUTRA LOGO
+                     ================================================= -->
+
+                <img
+                    src="img/logo.png"
+                    
+                >
+
+                <p>
+                    Plan Corretagem — soluções em planos
+                    de saúde para você, sua família e sua empresa.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Navegação
+                </h3>
+
+                <a href="#inicio">Início</a>
+                <a href="#planos">Planos</a>
+                <a href="#vantagens">Vantagens</a>
+                <a href="#duvidas">Dúvidas</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Atendimento
+                </h3>
+
+                <p>
+                    Belém / Ananindeua - PA
+                </p>
+
+                <p>
+                    WhatsApp: (91) 98494-5542
+                </p>
+
+                <p>
+                    E-mail: plancorretagemadm@hotmail.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © 2026 Plan Corretagem. Todos os direitos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- WhatsApp flutuante -->
+    <a
+        href="https://wa.me/5591984945542"
+        class="whatsapp"
+        target="_blank"
+        aria-label="Falar pelo WhatsApp"
+    >
+        <span>💬</span>
+    </a>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
