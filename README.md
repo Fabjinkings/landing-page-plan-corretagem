@@ -4,7 +4,7 @@ Landing page institucional desenvolvida para a **Plan Corretagem**, com foco em 
 
 Projeto criado como prática de front-end, aplicando HTML, CSS e JavaScript em um caso de uso real.
 
-## 🔗 https://github.com/Fabjinkings/landing-page-plan-corretagem/
+## 🔗 https://github.com/Fabjinkings/landing-page-plan-corretagem/](https://fabjinkings.github.io/landing-page-plan-corretagem/)
 
 
 ## ✨ Funcionalidades
